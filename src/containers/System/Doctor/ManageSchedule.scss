@@ -1,0 +1,46 @@
+.manage-schedule-container {
+    .m-s-title {
+        text-transform: uppercase;
+        margin        : 15px 0;
+        font-weight   : 600;
+        font-size     : 20px;
+        text-align    : center;
+        color         : #007bff;
+    }
+
+    .container {
+        .pick-hour-container {
+            height        : fit-content;
+            display       : flex;
+            gap           : 10px;
+            flex-wrap     : wrap;
+            padding-top   : 20px;
+            padding-bottom: 20px;
+
+            .button-time {
+                outline         : none;
+                border          : unset;
+                border-radius   : 5px;
+                background-color: #c5e1ff;
+                padding         : 7px 11px;
+                transition      : 0.2s;
+
+                &.active {
+                    background-color: #ffc107;
+                    color           : black;
+                }
+
+                &:hover {
+                    opacity   : 0.9;
+                    box-shadow: 0 0 10px #ffc107;
+                }
+
+                &:active {
+                    transition      : 0.02s;
+                    background-color: #ffc107;
+                    color           : black;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+#TableManageUser {
+    font-family    : Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width          : 100%;
+}
+
+#TableManageUser td,
+#TableManageUser th {
+    border : 1px solid #ddd;
+    padding: 8px;
+}
+
+#TableManageUser tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#TableManageUser tr:hover {
+    background-color: #ddd;
+}
+
+#TableManageUser th {
+    padding-top     : 12px;
+    padding-bottom  : 12px;
+    text-align      : left;
+    background-color: #04AA6D;
+    color           : white;
+}
+
+.btn-edit {
+    border          : none;
+    outline         : none;
+    width           : 25px;
+    background-color: unset;
+    color           : orangered;
+    font-size       : 15px;
+    cursor          : pointer;
+
+    &:hover {
+        background-color: unset !important;
+        color           : orangered;
+    }
+
+    &:active {
+        color: darkblue;
+    }
+}
+
+.btn-delete {
+    border          : none;
+    outline         : none;
+    width           : 25px;
+    background-color: unset;
+    color           : black;
+    font-size       : 15px;
+    cursor          : pointer;
+
+    &:hover {
+        background-color: unset !important;
+        color           : black;
+    }
+
+    &:active {
+        color: darkred;
+    }
+}
+
+.modal-user-container {
+    .modal-header {
+        button {
+            background-color: unset;
+            border          : none;
+            color           : white;
+            font-size       : 20px;
+            cursor          : pointer;
+        }
+    }
+
+    .modal-user-body {
+        display  : flex;
+        gap      : 15px;
+        flex-wrap: wrap;
+
+        .input-container {
+            display       : flex;
+            flex-direction: column;
+            width         : 49%;
+
+            &.max-width-input {
+                width: 100%;
+            }
+
+            input {
+                border       : 1px solid gray;
+                height       : 30px;
+                border-radius: 3px;
+                outline      : none;
+                padding      : 0 10px;
+            }
+        }
+    }
+
+}

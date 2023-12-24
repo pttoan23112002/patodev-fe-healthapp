@@ -1,0 +1,62 @@
+.manage-doctor-container {
+    padding: 5px;
+
+    .manage-doctor-title {
+        text-align    : center;
+        margin        : 15px 0;
+        font-size     : 20px;
+        text-transform: uppercase;
+        font-weight   : 600;
+    }
+
+    .more-info {
+        display       : flex;
+        gap           : 30px;
+        padding-bottom: 15px;
+
+        .content-left {
+            width: 40%;
+        }
+
+        .content-right {
+            width: 60%;
+        }
+    }
+
+    .save-content-doctor-markdown {
+        margin-top      : 15px;
+        margin-bottom   : 30px;
+        margin-left     : 20px;
+        border          : none;
+        outline         : none;
+        padding         : 15px 15px;
+        border-radius   : 10px;
+        font-weight     : 600;
+        color           : black;
+        background-color: #ffc107;
+        cursor          : pointer;
+
+        &:hover {
+            opacity: .9;
+        }
+    }
+
+    .create-content-doctor-markdown {
+        margin-top      : 15px;
+        margin-bottom   : 30px;
+        margin-left     : 20px;
+        border          : none;
+        outline         : none;
+        padding         : 15px 15px;
+        border-radius   : 10px;
+        font-weight     : 600;
+        color           : white;
+        background-color: #007bff;
+        cursor          : pointer;
+
+        &:hover {
+            opacity: .9;
+        }
+    }
+
+}

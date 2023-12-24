@@ -1,0 +1,244 @@
+.slick-prev {
+    width     : 44px !important;
+    height    : 48px !important;
+    background: #ffffff !important;
+    border    : 1.5px solid #d7d7d7 !important;
+    top       : 45% !important;
+    left      : -10px !important;
+    z-index   : 1 !important;
+
+    &:hover {
+        background: #ffffff !important;
+    }
+}
+
+.slick-next {
+    width     : 44px !important;
+    height    : 48px !important;
+    background: #ffffff !important;
+    border    : 1.5px solid #d7d7d7 !important;
+    top       : 45% !important;
+    right     : 0 !important;
+
+    &:hover {
+        background: #ffffff !important;
+    }
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+.slick-prev::before {
+    // font-family : FontAwesome !important;
+    // content  : "\f104" !important;
+    color: orange !important;
+}
+
+.slick-next::before {
+    // font-family : FontAwesome !important;
+    // content  : "\f105" !important
+    color: orange !important;
+}
+
+
+
+.section-share {
+    &.section-specialty {
+        background: white;
+    }
+
+    &.section-mediacal-facility {
+        background: #edfffa;
+    }
+
+    &.section-outstanding-doctor {
+        background: white;
+    }
+
+    &.section-handbook {
+        background: #edfffa;
+    }
+
+    &.section-about {
+        background-color: white;
+        height          : 490px;
+        margin          : 20px 100px;
+        display         : flex;
+        flex-direction  : column;
+
+        .section-about-header {
+            height     : 15%;
+            text-align : center;
+            font-size  : 23px;
+            font-weight: 500;
+            font-family: Montserrat, sans-serif;
+            padding-top: 10px;
+        }
+
+        .section-about-content {
+            height : 85%;
+            width  : 100%;
+            display: flex;
+            gap    : 30px;
+
+            .content-left {
+                width : 60%;
+                height: inherit;
+            }
+
+            .content-right {
+                width        : 40%;
+                height       : 100%;
+                text-align   : justify;
+                padding-top  : 5px;
+                padding-right: 10px;
+                font-weight  : 400;
+            }
+        }
+    }
+
+    .section-body {
+        .section-customize {
+
+
+            .img {
+                height             : 150px;
+                width              : 278px;
+                background-repeat  : no-repeat;
+                background-size    : cover;
+                background-position: center;
+                cursor             : pointer;
+
+                &.section-specialty {}
+
+                &.section-mediacal-facility {
+                    border             : 1px solid #d7d7d7;
+                    background-size    : cover;
+                    background-color   : white;
+                    // background-image: url('../../assets/medicalfacility/pkThangLong.jpg');
+                }
+
+                &.section-outstanding-doctor {
+                    height             : 120px;
+                    width              : 120px;
+                    border-radius      : 50%;
+                    background-size    : cover;
+                    // background-image: url('../../assets/outstandingdoctor/doctor-temp.webp');
+                }
+
+                &.section-handbook {
+                    background-image: url('../../assets/handbook/teeth.jpg');
+                }
+            }
+
+            .text {
+                padding-top: 5px;
+                height     : 100%;
+                width      : 100%;
+                display    : block;
+                color      : black;
+                font-size  : 18px;
+                font-weight: lighter;
+                transition : .3s;
+                cursor     : pointer;
+
+                &:hover {
+                    color: #0dcaf0;
+                }
+
+                &.section-outstanding-doctor {
+                    font-weight: 400;
+                    font-size  : 14px;
+                }
+
+                &.text-beblow {
+                    font-weight: 200;
+                    font-size  : 14px;
+                    padding    : 0 10px 0 0;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-share {
+    height     : 330px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+
+    // reset slick slider css
+    .section-container {
+        margin        : 0 100px;
+        display       : flex;
+        flex-direction: column;
+
+        .section-header {
+            height       : 60px;
+            margin-bottom: 30px;
+            padding      : 30px 0;
+
+            .title-section {
+                font-size  : 25px;
+                font-weight: 500;
+            }
+
+            .btn-section {
+                outline         : none;
+                border          : 0.5px solid #0398a800;
+                border-radius   : 15px;
+                background-color: rgb(229, 243, 245);
+                color           : black;
+                font-weight     : bolder;
+                float           : right;
+                display         : block;
+                margin-right    : 15px;
+                padding         : 10px 15px;
+                transition      : .3s;
+
+                &:hover {
+                    border          : 0.5px solid #0398a8;
+                    background-color: rgb(218, 243, 246);
+                    color           : #0398a8;
+                }
+            }
+        }
+
+        .section-body {
+            .slick-slider {
+                height  : inherit;
+                position: relative;
+            }
+        }
+    }
+}
+
+.section-outstanding-doctor {
+    .outer-img {
+        display        : flex;
+        justify-content: center;
+    }
+
+    .section-customize {
+        padding    : 5px;
+        margin-left: -5px;
+
+        .customize-border {
+            border : 1px solid #d7d7d7;
+            padding: 15px 0;
+        }
+    }
+}
+
+.home-footer {
+    // clear           : both;
+    background-color: #d7d7d7;
+    width           : 100%;
+    height          : 40px;
+    padding-top     : 10px;
+    font-size       : 12px;
+    text-align      : center;
+}

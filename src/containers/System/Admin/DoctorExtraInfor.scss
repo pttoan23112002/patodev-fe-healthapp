@@ -1,0 +1,104 @@
+.doctor-extra-infor-container {
+    padding: 5px 0;
+
+    .content-up {
+        padding-bottom: 5px;
+
+        .content-title {
+            text-transform: uppercase;
+            color         : #666666;
+            font-weight   : 600;
+            font-size     : 15px;
+        }
+
+        .name-clinic {
+            padding    : 5px 0;
+            font-size  : 14px;
+            font-weight: 600;
+        }
+
+        .address-clinic {
+            font-size  : 14px;
+            font-weight: 100;
+        }
+    }
+
+    .content-down {
+
+        .content-title {
+            padding-top   : 10px;
+            text-transform: uppercase;
+            color         : #666666;
+            font-weight   : 600;
+            font-size     : 15px;
+
+            .price {
+                text-transform: none;
+                color         : black;
+                font-weight   : 100;
+                font-size     : 14px;
+                margin-left   : 10px;
+            }
+
+            .btn-click {
+                text-transform: none;
+                color         : #0da7f0;
+                font-weight   : 600;
+                font-size     : 14px;
+                margin-left   : 5px;
+                cursor        : pointer;
+            }
+        }
+
+        .content-up {
+            text-transform  : none;
+            color           : black;
+            font-weight     : 100;
+            font-size       : 14px;
+            border          : 1px solid #dddddd;
+            text-align      : justify;
+            background-color: #f8f8f8;
+            padding         : 10px;
+            font-size       : 13px;
+            margin-top      : 7px;
+
+            .price {
+                .left {
+                    color      : #3e3e3e;
+                    font-weight: 600;
+                    font-size  : 14px;
+                }
+
+                .right {
+                    float      : right;
+                    font-weight: 600;
+                    font-size  : 13px;
+                    padding-top: 13px;
+                }
+            }
+
+            .note {
+                width: 80%;
+            }
+        }
+
+        .content-down {
+            border-bottom   : 1px solid #dddddd;
+            border-left     : 1px solid #dddddd;
+            border-right    : 1px solid #dddddd;
+            padding         : 10px;
+            background-color: #eeeeee;
+            font-size       : 13px;
+        }
+
+        .btn-click-hidden {
+            margin-top    : 7px;
+            margin-left   : 10px;
+            text-transform: none;
+            color         : #0da7f0;
+            font-weight   : 600;
+            cursor        : pointer;
+            font-size     : 13px;
+        }
+    }
+}

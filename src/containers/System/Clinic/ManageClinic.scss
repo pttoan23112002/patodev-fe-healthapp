@@ -1,0 +1,15 @@
+.manage-clinic-container {
+    margin: 0 15px;
+
+    .add-new-clinic {
+        .btn-save-new-clinic {
+            border          : none;
+            outline         : none;
+            background-color: #007bff;
+            color           : white;
+            border-radius   : 5px;
+            padding         : 7px 12px;
+            font-weight     : 600;
+        }
+    }
+}

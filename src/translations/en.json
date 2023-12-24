@@ -1,0 +1,160 @@
+{
+    "home-header": {
+        "specialty": "Medical specialty",
+        "search-doctor": "Finding a doctor by specialty",
+        "health-facility": "Facility",
+        "select-room": "Chose a facility",
+        "doctor": "Doctor",
+        "choose-doctor": "Choose a good doctor",
+        "fee": "Fee",
+        "check-health": "General health examination",
+        "support": "Support",
+        "search": "Find a medical specialist..."
+    },
+    "banner": {
+        "title1": "MEDICAL FLATFORM",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "child1": "Specialized examination",
+        "child2": "Remote examination",
+        "child3": "General examination",
+        "child4": "Medical tests",
+        "child5": "Mental health",
+        "child6": "Dental examination"
+    },
+    "menu": {
+        "welcome": "Welcome, ",
+        "admin": {
+            "manage-user": "User system",
+            "manage-doctor": "Manage doctor",
+            "manage-admin": "Manage admin",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD Redux",
+            "clinic": "Clinic",
+            "manage-clinic": "Manage clinic",
+            "specialty": "Specialty",
+            "manage-specialty": "Manage specialty",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage Handbook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor's schedule",
+            "schedule": "schedule",
+            "manage-patient": "Manage medical examination patients",
+            "select-day": "Select examination date",
+            "serial": "Serial number",
+            "time-booking": "Time",
+            "name": "Full name",
+            "address": "Address",
+            "gender": "Sex",
+            "action": "Action",
+            "not-found": "There are no patients booked during this time"
+        }
+    },
+    "manage-user": {
+        "add": "Create a new user",
+        "form": {
+            "email": "Email",
+            "password": "Password",
+            "firstName": "First name",
+            "lastName": "Last name",
+            "phoneNumber": "Phone number",
+            "address": "Address",
+            "gender": "Sex",
+            "gender-placeholder": "Choose...",
+            "roleId": "Role",
+            "positionId": "Position",
+            "image": "Avatar",
+            "button-add": "Save user",
+            "button-edit": "Save changes"
+        }
+    },
+    "home-page": {
+        "title": "",
+        "more-info": "",
+        "outstading-doctor": {
+            "outstading-doctor-title": "Outstanding doctors last week",
+            "outstading-doctor-btn": "More Info"
+        },
+        "specialty": {
+            "specialty-title": "Popular specialties",
+            "specialty-btn": "More Info"
+        }
+    },
+    "manage-schedule": {
+        "title": "Manage doctor's examination plan",
+        "choose-doctor": "Choose a doctor",
+        "choose-date": "Choose a day",
+        "button-save": "Save"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "schedule",
+            "status-schedule": "The doctor does not have an appointment during this time, please choose another time!",
+            "choose": "Choose ",
+            "book-free": " and book (free)"
+        },
+        "doctor-infor": {
+            "text-address": "Address",
+            "text-price": "Price",
+            "view-detail": "View more",
+            "hidden-detail": "Hide less",
+            "table-text-price": "Price",
+            "table-text-payment": "Patients can pay by "
+        },
+        "booking-modal": {
+            "price": "Price: ",
+            "time": "At ",
+            "free-booking": "Free booking",
+            "title-modal": "Thông tin đặt lịch khám bệnh",
+            "fullName": "Full name",
+            "phoneNumber": "Phone",
+            "email": "Email",
+            "gender": "Sex",
+            "birthday": "Birthday",
+            "address": "Address",
+            "reason": "Reason",
+            "btn-confirm": "Confirm",
+            "btn-cancel": "Cancel",
+            "placeholder-fullName": "Full name",
+            "placeholder-phoneNumber": "Phone",
+            "placeholder-email": "Email",
+            "placeholder-gender": "Sex",
+            "placeholder-birthday": "Birthday",
+            "placeholder-address": "Address",
+            "placeholder-reason": "Reason"
+        },
+        "verify-email": {
+            "title": "Information for scheduling your medical examination",
+            "loading": "Loading data",
+            "success": "Successful appointment confirmation! Please close this page.",
+            "failed": "The appointment has been confirmed or does not exist"
+        },
+        "detail-specialty": {
+            "view-more": "View more"
+        },
+        "detail-clinic": {
+            "not-found": "This facility don't have any doctors!"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Create new doctor's information",
+            "select-doctor": "Select a doctor",
+            "introduction": "Introduction",
+            "add": "Add changes",
+            "save": "Save changes",
+            "choose-price": "Price",
+            "choose-payment": "Payment",
+            "choose-province": "Province",
+            "nameClinic": "Clinic's name",
+            "addressClinic": "Clinic's address",
+            "note": "Note",
+            "placeholder-select-doctor": "Select...",
+            "placeholder-select-price": "Select price...",
+            "placeholder-select-payment": "Select method...",
+            "placeholder-select-province": "Select province...",
+            "specialty": "Select specialty",
+            "clinic": "Select clinic"
+        }
+    }
+}
